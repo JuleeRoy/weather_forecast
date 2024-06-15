@@ -8,7 +8,7 @@ const Favorites = () => {
   return (
     <div className='container-fluid' style={{height:"100vh"}}>
       <p className='h3 text-center mt-3 '>My Favourites city</p>
-      <div className='d-flex justify-content-center  mt-3'>
+      <div className=' mt-3'>
         {favorites.map(fav => (
           <li key={fav.id} className='w-100 bg-light mb-5 px-3 rounded d-flex justify-content-between align-items-center fs-3'>
             <span 
